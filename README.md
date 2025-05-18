@@ -13,7 +13,7 @@ This project demonstrates how to deploy **Microsoft Endpoint Configuration Manag
 |----------|-----------------------|----------------------------------------------|
 | `DC01`   | Domain Controller     | Hosts Active Directory, DNS, and DHCP        |
 | `SQL01`  | SQL Server            | Hosts the MECM site database                 |
-| `MECM01` | MECM Primary Site     | Installs and runs Microsoft Endpoint Manager |
+| `MECM-PS-01` | MECM Primary Site     | Installs and runs Microsoft Endpoint Manager |
 
 
 

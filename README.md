@@ -1,10 +1,20 @@
 # MECM-Deployment
-This project demonstrates the deployment of Microsoft Endpoint Configuration Manager (MECM) in a cloud-based lab environment using three Windows Server virtual machines (VMs) hosted in Microsoft Azure. The setup includes:
+# 🚀 Deploying MECM Using Three Windows Server VMs in Azure
 
-A Domain Controller (DC01) for Active Directory, DNS, and DHCP services
+## 📘 Overview
 
-A SQL Server (SQL01) to host the MECM site database
+This project demonstrates how to deploy **Microsoft Endpoint Configuration Manager (MECM)** in a cloud-based lab environment using **three Windows Server virtual machines (VMs)** hosted on **Microsoft Azure**. The deployment is designed to replicate an enterprise architecture for testing, demonstration, and training purposes.
 
-A Primary Site Server (MECM01) to run Microsoft Endpoint Configuration Manager
+---
 
-The goal of this project is to simulate an enterprise-level MECM deployment for testing, demonstration, or training purposes, including configuration of client discovery, software updates, and application deployment.
+## 🧱 Architecture
+
+| VM Name  | Role                  | Purpose                                      |
+|----------|-----------------------|----------------------------------------------|
+| `DC01`   | Domain Controller     | Hosts Active Directory, DNS, and DHCP        |
+| `SQL01`  | SQL Server            | Hosts the MECM site database                 |
+| `MECM01` | MECM Primary Site     | Installs and runs Microsoft Endpoint Manager |
+
+
+
+
